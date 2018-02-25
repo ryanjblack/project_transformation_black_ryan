@@ -11,7 +11,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5B5B5B;
@@ -135,8 +134,22 @@ a {
     color: #FFFFFF;
 }
 
-/* Page */
+@media all and (min-width: 500px) {
 
+    nav li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 1000px) {
+
+    nav li {
+        width: calc(100% / 5);
+    }
+}
+
+/* Page */
 #page {
     margin: 0 auto;
     padding: 30px 0;
@@ -209,6 +222,23 @@ a {
     text-decoration: none;
 }
 
+@media (min-width: 1000px) {
+    #content {
+        float: right;
+        margin-left: 1.5em;
+        width: calc(100% / 3 * 2);
+    }
+
+    #sidebar {
+        float: left;
+        width: calc(100% /3 - 1.5em);
+    }
+
+    footer {
+        clear: both;
+    }
+}
+
 /* Sidebar */
 
 #sidebar {
@@ -275,13 +305,14 @@ a {
 
 /* Footer */
 
-#footer {
+footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 0 0 15px 0;
+    background: #050505 url(../img/img01.jpg) repeat;
     font-family: 'Abel', sans-serif;
 }
 
-#footer p {
+footer p {
     margin: 0;
     padding-top: 10px;
     letter-spacing: 1px;
@@ -292,7 +323,7 @@ a {
     color: #5E5E5E;
 }
 
-#footer a {
+footer a {
     color: #5E5E5E;
 }
 
