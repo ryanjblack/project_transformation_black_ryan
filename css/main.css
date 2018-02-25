@@ -68,7 +68,6 @@ a {
 }
 
 #header {
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -76,8 +75,6 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -104,14 +101,13 @@ a {
 /* Menu */
 
 #menu {
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0;
     list-style: none;
     line-height: normal;
 }
@@ -132,7 +128,8 @@ a {
     border: none;
 }
 
-#menu a:hover, #menu .current_page_item a {
+#menu a:hover,
+#menu .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #FFFFFF;
@@ -256,7 +253,6 @@ a {
 }
 
 #sidebar h2 {
-    height: 38px;
     padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
@@ -280,7 +276,6 @@ a {
 /* Footer */
 
 #footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
