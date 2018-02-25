@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -101,13 +111,6 @@ a {
     color: #000000;
 }
 
-/* Splash */
-
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
 
 /* Search */
 
@@ -195,9 +198,8 @@ a {
 /* Page */
 
 #page {
-    width: 1000px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 
 /* Content */
@@ -462,9 +464,13 @@ a {
 
 #banner {
     margin: 0px auto;
-    width: 1000px;
-    height: 340px;
+    max-width: 1000px;
     background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
 }
 
 .list-style1 {
