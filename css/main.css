@@ -58,7 +58,7 @@ a {
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 /* Header */
@@ -104,22 +104,16 @@ a {
 /* Menu */
 
 #menu {
-    float: right;
     height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
     line-height: normal;
-}
-
-#menu li {
-    float: left;
 }
 
 #menu a {
