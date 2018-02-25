@@ -17,7 +17,9 @@ body {
     color: #5B5B5B;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -39,7 +41,9 @@ h3 {
     font-size: 1.6em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     margin-top: 0;
     line-height: 180%;
 }
@@ -54,7 +58,7 @@ a {
 
 .container {
     max-width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -88,19 +92,6 @@ a {
 #logo h1 a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
 }
 
 #logo a {
