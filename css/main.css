@@ -156,13 +156,17 @@ a {
 }
 
 .post {
-    overflow: hidden;
-    margin-bottom: 40px;
+    padding: 30px 40px;
     border-bottom: 1px solid #E7EBED;
+}
+
+.post + .post {
+    margin-top: 1.5em;
 }
 
 .post .title {
     padding: 7px 0px 0px 0px;
+    margin-bottom: 10px;
     letter-spacing: -1px;
 }
 
