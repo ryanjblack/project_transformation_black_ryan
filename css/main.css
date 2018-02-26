@@ -52,7 +52,7 @@ a {
 }
 
 #wrapper {
-    background: #FFFFFF url(../img/img05.jpg) repeat;
+    background: url(../img/img05.jpg) repeat;
 }
 
 .container {
