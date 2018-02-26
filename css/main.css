@@ -134,17 +134,10 @@ a {
     color: #FFFFFF;
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 600px) {
 
     nav li {
         display: inline-block;
-        width: 50%;
-    }
-}
-
-@media all and (min-width: 1000px) {
-
-    nav li {
         width: calc(100% / 5);
     }
 }
@@ -161,7 +154,7 @@ a {
 }
 
 .post + .post {
-    margin-top: 1.5em;
+    margin-top: 0.8em;
 }
 
 .post .title {
